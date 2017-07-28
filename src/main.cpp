@@ -26,7 +26,8 @@ std::string hasData(std::string s)
 	{
 		return s.substr(b1, b2 - b1 + 1);
 	}
-    return "";
+	
+	return "";
 }
 
 int main()
