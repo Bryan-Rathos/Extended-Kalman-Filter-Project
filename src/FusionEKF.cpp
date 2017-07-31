@@ -34,7 +34,7 @@ FusionEKF::FusionEKF()
   * Set the process and measurement noises
   */
   H_laser_ = MatrixXd(2, 4);
-  H_laser_ << 1, 0, 0, 0
+  H_laser_ << 1, 0, 0, 0,
               0, 1, 0, 0;
   
   Hj_ = MatrixXd(3, 4);
