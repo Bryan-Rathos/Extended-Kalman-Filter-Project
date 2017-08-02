@@ -137,7 +137,7 @@ int main()
           VectorXd RMSE = tools.CalculateRMSE(estimations, ground_truth);
 
           // compute the accuracy (RMSE)
-          cout << "Accuracy - RMSE:" << endl << RMSE << endl;
+          cout << "Accuracy - RMSE:" << endl << RMSE << "\n\n";
 
           json msgJson;
           msgJson["estimate_x"] = p_x;
